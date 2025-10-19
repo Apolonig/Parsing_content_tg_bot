@@ -1,0 +1,12 @@
+[project]
+name = "parsing-chanels"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiogram>=3.4.1",
+    "python-dotenv>=1.0.1",
+    "telethon>=1.36.0",
+    "asyncpg>=0.29.0",
+]

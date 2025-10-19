@@ -1,0 +1,66 @@
+# Python virtual environments
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+*.pyc
+
+# IDE and editor files
+.idea/  # PyCharm
+.vscode/  # Visual Studio Code
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables and secrets
+.env
+*.env
+config.ini
+secrets.json
+bot_token.txt
+*.key
+*.pem
+
+# Logs and temporary files
+*.log
+*.log.*
+logs/
+*.tmp
+temp/
+
+# Dependency management
+Pipfile.lock
+requirements.txt.lock
+
+# Testing and coverage
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+
+# Database files (if used)
+*.db
+*.sqlite3
+*.sql
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Other common ignores
+*.bak
+*.swp
+*~
+*.egg-info/
+dist/
+build/
+download/
